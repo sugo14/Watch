@@ -1,0 +1,1849 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4b67d6ca-2c08-4129-9a32-e282c2a08cdb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "E73-2G4M08S1C:E73-2G4M08S1C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -15.24 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "E73-2G4M08S1C"
+				(at -15.24 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "E73-2G4M08S1C:E73-2G4M08S1C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "nRF52840 2.4GHZ SMD Wireless Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "EBYTE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "E73-2G4M08S1C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "E73-2G4M08S1C_1_0"
+				(rectangle
+					(start -15.24 -22.86)
+					(end 2.54 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "GND@1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "GND@2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "VDDH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "GND@3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "DCCH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "P0.18/RESET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "E73-2G4M08S1C_2_0"
+				(rectangle
+					(start -5.08 -30.48)
+					(end 10.16 30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "P0.03/AIN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name "P0.28/AIN4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "P0.02/AIN0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "P0.29/AIN5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -27.94 180)
+					(length 2.54)
+					(name "P0.31/AIN7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -25.4 180)
+					(length 2.54)
+					(name "P0.30/AIN6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 27.94 180)
+					(length 2.54)
+					(name "P0.00/XL1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "P0.26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 25.4 180)
+					(length 2.54)
+					(name "P0.01/XL2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "P0.06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "P0.05/AIN3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "P0.08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "P0.04/AIN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "P0.12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "P0.07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "P0.15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "P0.17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "P0.20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "P0.13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "P0.22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "P0.24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "P0.09/NFC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "P0.10/NFC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "E73-2G4M08S1C_3_0"
+				(rectangle
+					(start -2.54 -12.7)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "P1.11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "P1.10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "P1.13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P1.09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "P1.00"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "P1.02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "P1.04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P1.06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "E73-2G4M08S1C:E73-2G4M08S1C")
+		(at 114.3 54.61 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551c95d1-2fb7-4708-b320-32240b7bdc6f")
+		(property "Reference" "U1"
+			(at 116.84 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "E73-2G4M08S1C"
+			(at 116.84 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "E73-2G4M08S1C:E73-2G4M08S1C"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "nRF52840 2.4GHZ SMD Wireless Module"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "EBYTE"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=snap"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "E73-2G4M08S1C"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=eda"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "37"
+			(uuid "45414c5c-3a3f-4b6c-8e2e-f115c3aeeac0")
+		)
+		(pin "31"
+			(uuid "5e43f7b0-938a-40a6-9f8c-11874c539def")
+		)
+		(pin "29"
+			(uuid "c34318ae-356c-4eb8-ac2a-705e68b751e4")
+		)
+		(pin "27"
+			(uuid "c2a2f167-f0a0-4372-9ac0-51f44e41c3c8")
+		)
+		(pin "36"
+			(uuid "091aae3e-f635-4eb3-88ed-b8c80318b1aa")
+		)
+		(pin "40"
+			(uuid "40f50593-913a-4f40-94be-d7a3467bd030")
+		)
+		(pin "38"
+			(uuid "178567fe-6c30-4691-acc3-776941d85189")
+		)
+		(pin "17"
+			(uuid "8b1424c4-2db1-45c1-baef-ba4e2b572191")
+		)
+		(pin "4"
+			(uuid "dceced9e-e261-42c0-a04b-55f44cf790f1")
+		)
+		(pin "39"
+			(uuid "a8ad882c-c105-4980-b8c4-cc4cb908e66e")
+		)
+		(pin "7"
+			(uuid "79c7d8f7-2f2a-4191-9519-04261bcc65ba")
+		)
+		(pin "3"
+			(uuid "b35d29a6-f922-494d-89f9-6f330728213b")
+		)
+		(pin "2"
+			(uuid "395bd208-3fe5-4b66-8078-cce15d7574a5")
+		)
+		(pin "33"
+			(uuid "a74982c0-f212-4aed-958b-6cc59f6c4e14")
+		)
+		(pin "6"
+			(uuid "2f350388-7ccd-491a-a13d-b092243be220")
+		)
+		(pin "43"
+			(uuid "07361aa9-fa8a-47c6-9f39-656e5d008991")
+		)
+		(pin "16"
+			(uuid "8950ded4-4c2e-4d06-b0fe-91f975a6017e")
+		)
+		(pin "42"
+			(uuid "2ad1bd6f-4592-4501-b6a0-e0fce9f47ffa")
+		)
+		(pin "8"
+			(uuid "af3ff34d-6b40-452f-9c90-e96e90b71e15")
+		)
+		(pin "1"
+			(uuid "5817730f-882c-45c6-9176-fb84746b4e02")
+		)
+		(pin "28"
+			(uuid "9c767a5a-f32a-44c2-9b05-6a66d8746eae")
+		)
+		(pin "30"
+			(uuid "e6266575-44e4-46e2-a7a3-963ac1d3062c")
+		)
+		(pin "34"
+			(uuid "3b175df6-ce49-4540-a043-f07dcb7eb3d3")
+		)
+		(pin "15"
+			(uuid "26aae4fb-0ad7-4369-9b43-83914c43d650")
+		)
+		(pin "9"
+			(uuid "f0ab6f8f-888b-4ec2-a8da-f4af62e6195d")
+		)
+		(pin "14"
+			(uuid "fda70e36-bcaa-4dc6-9d0c-09b07a265139")
+		)
+		(pin "18"
+			(uuid "484197d5-e4c0-4bf5-880e-13114cd8a5d4")
+		)
+		(pin "20"
+			(uuid "c97e926d-f23a-4dea-997c-ce0831991e6c")
+		)
+		(pin "13"
+			(uuid "12197813-7408-48e4-9b79-a2b1d97b6b3c")
+		)
+		(pin "32"
+			(uuid "85e862c1-31ef-4c1b-a28d-1ab47e4d25a4")
+		)
+		(pin "12"
+			(uuid "c2aeb2e8-e0da-4b7f-8d90-538b3444609d")
+		)
+		(pin "22"
+			(uuid "7a694508-a746-42a9-bc54-455ad70db0da")
+		)
+		(pin "10"
+			(uuid "4d438a06-de6b-4417-bac3-3f178346ad2c")
+		)
+		(pin "41"
+			(uuid "68e7c8c7-4e88-48df-af73-84ebfaaca894")
+		)
+		(pin "19"
+			(uuid "20298c36-1664-4742-b3dc-e11d34b3520f")
+		)
+		(pin "21"
+			(uuid "0d56024f-afa0-4e50-8360-7d74a88a8f9a")
+		)
+		(pin "23"
+			(uuid "17c8a0aa-5d2e-44a7-803d-f65f8ad1305e")
+		)
+		(pin "24"
+			(uuid "4efef534-4bc0-43c9-bf58-c5d46163f9b3")
+		)
+		(pin "25"
+			(uuid "70022a6c-1667-4c41-86f6-71429800a6fc")
+		)
+		(pin "26"
+			(uuid "ca78a243-6f47-4412-adfd-975280c33a9a")
+		)
+		(pin "11"
+			(uuid "d5c4968b-d344-4bab-aa1f-25e61549d899")
+		)
+		(pin "35"
+			(uuid "92889e93-383b-4a85-9796-3d34ca17ca7d")
+		)
+		(pin "5"
+			(uuid "8142a367-cc96-4fab-8ecd-314e5b2e6df9")
+		)
+		(instances
+			(project "mc-screen-breakout"
+				(path "/4b67d6ca-2c08-4129-9a32-e282c2a08cdb"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "E73-2G4M08S1C:E73-2G4M08S1C")
+		(at 166.37 53.34 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e28f40c5-ba1a-4a1a-b664-867ec7de68be")
+		(property "Reference" "U1"
+			(at 168.91 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "E73-2G4M08S1C"
+			(at 168.91 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "E73-2G4M08S1C:E73-2G4M08S1C"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "nRF52840 2.4GHZ SMD Wireless Module"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "EBYTE"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=snap"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "E73-2G4M08S1C"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=eda"
+			(at 166.37 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "37"
+			(uuid "45414c5c-3a3f-4b6c-8e2e-f115c3aeeac0")
+		)
+		(pin "31"
+			(uuid "5e43f7b0-938a-40a6-9f8c-11874c539def")
+		)
+		(pin "29"
+			(uuid "c34318ae-356c-4eb8-ac2a-705e68b751e4")
+		)
+		(pin "27"
+			(uuid "c2a2f167-f0a0-4372-9ac0-51f44e41c3c8")
+		)
+		(pin "36"
+			(uuid "091aae3e-f635-4eb3-88ed-b8c80318b1aa")
+		)
+		(pin "40"
+			(uuid "40f50593-913a-4f40-94be-d7a3467bd030")
+		)
+		(pin "38"
+			(uuid "178567fe-6c30-4691-acc3-776941d85189")
+		)
+		(pin "17"
+			(uuid "8b1424c4-2db1-45c1-baef-ba4e2b572191")
+		)
+		(pin "4"
+			(uuid "dceced9e-e261-42c0-a04b-55f44cf790f1")
+		)
+		(pin "39"
+			(uuid "a8ad882c-c105-4980-b8c4-cc4cb908e66e")
+		)
+		(pin "7"
+			(uuid "79c7d8f7-2f2a-4191-9519-04261bcc65ba")
+		)
+		(pin "3"
+			(uuid "b35d29a6-f922-494d-89f9-6f330728213b")
+		)
+		(pin "2"
+			(uuid "395bd208-3fe5-4b66-8078-cce15d7574a5")
+		)
+		(pin "33"
+			(uuid "a74982c0-f212-4aed-958b-6cc59f6c4e14")
+		)
+		(pin "6"
+			(uuid "2f350388-7ccd-491a-a13d-b092243be220")
+		)
+		(pin "43"
+			(uuid "07361aa9-fa8a-47c6-9f39-656e5d008991")
+		)
+		(pin "16"
+			(uuid "8950ded4-4c2e-4d06-b0fe-91f975a6017e")
+		)
+		(pin "42"
+			(uuid "2ad1bd6f-4592-4501-b6a0-e0fce9f47ffa")
+		)
+		(pin "8"
+			(uuid "af3ff34d-6b40-452f-9c90-e96e90b71e15")
+		)
+		(pin "1"
+			(uuid "5817730f-882c-45c6-9176-fb84746b4e02")
+		)
+		(pin "28"
+			(uuid "9c767a5a-f32a-44c2-9b05-6a66d8746eae")
+		)
+		(pin "30"
+			(uuid "e6266575-44e4-46e2-a7a3-963ac1d3062c")
+		)
+		(pin "34"
+			(uuid "3b175df6-ce49-4540-a043-f07dcb7eb3d3")
+		)
+		(pin "15"
+			(uuid "26aae4fb-0ad7-4369-9b43-83914c43d650")
+		)
+		(pin "9"
+			(uuid "f0ab6f8f-888b-4ec2-a8da-f4af62e6195d")
+		)
+		(pin "14"
+			(uuid "fda70e36-bcaa-4dc6-9d0c-09b07a265139")
+		)
+		(pin "18"
+			(uuid "484197d5-e4c0-4bf5-880e-13114cd8a5d4")
+		)
+		(pin "20"
+			(uuid "c97e926d-f23a-4dea-997c-ce0831991e6c")
+		)
+		(pin "13"
+			(uuid "12197813-7408-48e4-9b79-a2b1d97b6b3c")
+		)
+		(pin "32"
+			(uuid "85e862c1-31ef-4c1b-a28d-1ab47e4d25a4")
+		)
+		(pin "12"
+			(uuid "c2aeb2e8-e0da-4b7f-8d90-538b3444609d")
+		)
+		(pin "22"
+			(uuid "7a694508-a746-42a9-bc54-455ad70db0da")
+		)
+		(pin "10"
+			(uuid "4d438a06-de6b-4417-bac3-3f178346ad2c")
+		)
+		(pin "41"
+			(uuid "68e7c8c7-4e88-48df-af73-84ebfaaca894")
+		)
+		(pin "19"
+			(uuid "20298c36-1664-4742-b3dc-e11d34b3520f")
+		)
+		(pin "21"
+			(uuid "0d56024f-afa0-4e50-8360-7d74a88a8f9a")
+		)
+		(pin "23"
+			(uuid "17c8a0aa-5d2e-44a7-803d-f65f8ad1305e")
+		)
+		(pin "24"
+			(uuid "4efef534-4bc0-43c9-bf58-c5d46163f9b3")
+		)
+		(pin "25"
+			(uuid "70022a6c-1667-4c41-86f6-71429800a6fc")
+		)
+		(pin "26"
+			(uuid "ca78a243-6f47-4412-adfd-975280c33a9a")
+		)
+		(pin "11"
+			(uuid "d5c4968b-d344-4bab-aa1f-25e61549d899")
+		)
+		(pin "35"
+			(uuid "92889e93-383b-4a85-9796-3d34ca17ca7d")
+		)
+		(pin "5"
+			(uuid "8142a367-cc96-4fab-8ecd-314e5b2e6df9")
+		)
+		(instances
+			(project "mc-screen-breakout"
+				(path "/4b67d6ca-2c08-4129-9a32-e282c2a08cdb"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "E73-2G4M08S1C:E73-2G4M08S1C")
+		(at 62.23 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e97f146d-1cf5-4147-8b03-3f036236dd3e")
+		(property "Reference" "U1"
+			(at 66.04 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "E73-2G4M08S1C"
+			(at 66.04 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "E73-2G4M08S1C:E73-2G4M08S1C"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "nRF52840 2.4GHZ SMD Wireless Module"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "EBYTE"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=snap"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "E73-2G4M08S1C"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/E73-2G4M08S1C/EBYTE/view-part/?ref=eda"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "37"
+			(uuid "45414c5c-3a3f-4b6c-8e2e-f115c3aeeac0")
+		)
+		(pin "31"
+			(uuid "5e43f7b0-938a-40a6-9f8c-11874c539def")
+		)
+		(pin "29"
+			(uuid "c34318ae-356c-4eb8-ac2a-705e68b751e4")
+		)
+		(pin "27"
+			(uuid "c2a2f167-f0a0-4372-9ac0-51f44e41c3c8")
+		)
+		(pin "36"
+			(uuid "091aae3e-f635-4eb3-88ed-b8c80318b1aa")
+		)
+		(pin "40"
+			(uuid "40f50593-913a-4f40-94be-d7a3467bd030")
+		)
+		(pin "38"
+			(uuid "178567fe-6c30-4691-acc3-776941d85189")
+		)
+		(pin "17"
+			(uuid "8b1424c4-2db1-45c1-baef-ba4e2b572191")
+		)
+		(pin "4"
+			(uuid "dceced9e-e261-42c0-a04b-55f44cf790f1")
+		)
+		(pin "39"
+			(uuid "a8ad882c-c105-4980-b8c4-cc4cb908e66e")
+		)
+		(pin "7"
+			(uuid "79c7d8f7-2f2a-4191-9519-04261bcc65ba")
+		)
+		(pin "3"
+			(uuid "b35d29a6-f922-494d-89f9-6f330728213b")
+		)
+		(pin "2"
+			(uuid "395bd208-3fe5-4b66-8078-cce15d7574a5")
+		)
+		(pin "33"
+			(uuid "a74982c0-f212-4aed-958b-6cc59f6c4e14")
+		)
+		(pin "6"
+			(uuid "2f350388-7ccd-491a-a13d-b092243be220")
+		)
+		(pin "43"
+			(uuid "07361aa9-fa8a-47c6-9f39-656e5d008991")
+		)
+		(pin "16"
+			(uuid "8950ded4-4c2e-4d06-b0fe-91f975a6017e")
+		)
+		(pin "42"
+			(uuid "2ad1bd6f-4592-4501-b6a0-e0fce9f47ffa")
+		)
+		(pin "8"
+			(uuid "af3ff34d-6b40-452f-9c90-e96e90b71e15")
+		)
+		(pin "1"
+			(uuid "5817730f-882c-45c6-9176-fb84746b4e02")
+		)
+		(pin "28"
+			(uuid "9c767a5a-f32a-44c2-9b05-6a66d8746eae")
+		)
+		(pin "30"
+			(uuid "e6266575-44e4-46e2-a7a3-963ac1d3062c")
+		)
+		(pin "34"
+			(uuid "3b175df6-ce49-4540-a043-f07dcb7eb3d3")
+		)
+		(pin "15"
+			(uuid "26aae4fb-0ad7-4369-9b43-83914c43d650")
+		)
+		(pin "9"
+			(uuid "f0ab6f8f-888b-4ec2-a8da-f4af62e6195d")
+		)
+		(pin "14"
+			(uuid "fda70e36-bcaa-4dc6-9d0c-09b07a265139")
+		)
+		(pin "18"
+			(uuid "484197d5-e4c0-4bf5-880e-13114cd8a5d4")
+		)
+		(pin "20"
+			(uuid "c97e926d-f23a-4dea-997c-ce0831991e6c")
+		)
+		(pin "13"
+			(uuid "12197813-7408-48e4-9b79-a2b1d97b6b3c")
+		)
+		(pin "32"
+			(uuid "85e862c1-31ef-4c1b-a28d-1ab47e4d25a4")
+		)
+		(pin "12"
+			(uuid "c2aeb2e8-e0da-4b7f-8d90-538b3444609d")
+		)
+		(pin "22"
+			(uuid "7a694508-a746-42a9-bc54-455ad70db0da")
+		)
+		(pin "10"
+			(uuid "4d438a06-de6b-4417-bac3-3f178346ad2c")
+		)
+		(pin "41"
+			(uuid "68e7c8c7-4e88-48df-af73-84ebfaaca894")
+		)
+		(pin "19"
+			(uuid "20298c36-1664-4742-b3dc-e11d34b3520f")
+		)
+		(pin "21"
+			(uuid "0d56024f-afa0-4e50-8360-7d74a88a8f9a")
+		)
+		(pin "23"
+			(uuid "17c8a0aa-5d2e-44a7-803d-f65f8ad1305e")
+		)
+		(pin "24"
+			(uuid "4efef534-4bc0-43c9-bf58-c5d46163f9b3")
+		)
+		(pin "25"
+			(uuid "70022a6c-1667-4c41-86f6-71429800a6fc")
+		)
+		(pin "26"
+			(uuid "ca78a243-6f47-4412-adfd-975280c33a9a")
+		)
+		(pin "11"
+			(uuid "d5c4968b-d344-4bab-aa1f-25e61549d899")
+		)
+		(pin "35"
+			(uuid "92889e93-383b-4a85-9796-3d34ca17ca7d")
+		)
+		(pin "5"
+			(uuid "8142a367-cc96-4fab-8ecd-314e5b2e6df9")
+		)
+		(instances
+			(project "mc-screen-breakout"
+				(path "/4b67d6ca-2c08-4129-9a32-e282c2a08cdb"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,2 +1,4 @@
-/~watch.kicad_sch.lck
-/.history/
+~watch.kicad_sch.lck
+.history/
+fp-info-cache
+*-backups/
