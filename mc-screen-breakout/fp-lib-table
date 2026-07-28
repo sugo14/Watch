@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "sugo-lib") (type "KiCad") (uri "/home/sugo/projects/electronics/watch/lib/sugo-lib.pretty") (options "") (descr ""))
+	(lib (name "NANOT160BP") (type "KiCad") (uri "/home/sugo/projects/electronics/watch/lib/NANOT160BP/footprints.pretty") (options "") (descr ""))
+	(lib (name "CMM-3424DT-26165-TR") (type "KiCad") (uri "/home/sugo/projects/electronics/watch/lib/CMM-3424DT-26165-TR") (options "") (descr ""))
+	(lib (name "FH28-10S-0.5SH_05_") (type "KiCad") (uri "/home/sugo/projects/electronics/watch/lib/FH28-10S-0.5SH_05_") (options "") (descr ""))
+	(lib (name "MDBT50Q-1MV2") (type "KiCad") (uri "/home/sugo/projects/electronics/watch/lib/MDBT50Q-1MV2") (options "") (descr ""))
+)
