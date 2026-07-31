@@ -1,0 +1,122 @@
+(footprint "Untitled"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "NANOT"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d7f1943-8cb0-42cf-891a-efd74b70b506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c547f69b-6099-4dc3-8007-1e543a08d9eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0acb16-306a-42f7-a00f-da29bdc5e641")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f631f26-6f22-4113-9d6a-9a2bf7eece62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.2 0.85)
+		(end 1.2 1.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d5cf9392-1ea2-4bc9-8336-3d4893fa48e1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.545244 1.249705) (xy 0.55 1.249705) (xy 0.3 1.4) (xy -0.3 1.399705)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "26c7cc27-e4c9-4457-a346-7700cb120374")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2dab1343-4a13-4756-bd01-82a7f180cb73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.05 0)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcba1d42-8c9f-4731-b31a-da8d39739e8e")
+	)
+	(pad "1" smd rect
+		(at -1.05 0.5)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "706baae4-0240-43d8-bb17-7feafa38f015")
+	)
+	(pad "2" thru_hole circle
+		(at 1.05 0)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f02b3c-1f93-41bb-aa16-b8b4dc9a4f61")
+	)
+	(pad "2" smd rect
+		(at 1.05 0.5)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "486fb777-e942-438c-9d50-4b1573ed0412")
+	)
+	(embedded_fonts no)
+)
